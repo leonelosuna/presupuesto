@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>PRESUPUESTO</h1>
+        <p>Leonel Osuna</p>
+    </div>
+    <div class="presupuestocontainer">
+        
+        <div class="presupuesto">
+            <h2>Ingresos</h2>
+            <div class="infochart">
+                <input type="text" id="inputinfo" placeholder="Detalle de ingreso">
+                <input type="text" id="money" placeholder="Precio en Q.">
+                <button id="addbtn">Agregar</button>
+            </div>
+            <ul id="ulList">
+                
+            </ul>
+        </div>
+        <div class="presupuesto egresos">
+            <h2>Egresos</h2>
+            <div class="infochart">
+                <input type="text" id="inputinfo2" placeholder="Detalle de egreso">
+                <input type="text" id="money2" placeholder="Precio en Q.">
+                <button id="addbtn2">Agregar</button>
+            </div>
+            <ul id="ulList2">
+            </ul>
+        </div>
+        <div class="total" id="total">
+            <h2 id="resultado">Total: Q0</h2>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

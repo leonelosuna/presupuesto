@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.presupuestocontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 25px;
+    margin-bottom: 80px;
+}
+.title{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.title h1{
+    font-weight: 900;
+    color: #f00;
+    font-size: 80px;
+    line-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+}
+.infochart{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.presupuesto{
+    background-color: #dddddd;
+    padding: 20px 25px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 8px 12px 0 #000;
+    border: 4px solid #000;
+}
+.presupuesto h2{
+    margin-bottom: 10px;
+}
+.presupuesto input{
+    border: none;
+    background-color: #ffffff;
+    color: #242424;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+.presupuesto button{
+    border: none;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin-left: -5px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.solodataingreso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    background-color: #808080;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.total{
+    background-color: #35ba00;
+    padding: 20px 25px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 8px 12px 0 #000;
+    border: 4px solid #000;
+}
